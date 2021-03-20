@@ -79,7 +79,7 @@ button:hover {
     <p>Please fill in this form to create an account.</p>
     <hr>
 
-    <label for="username"><b>Email</b></label>
+    <label for="username"><b>username</b></label>
     <input type="text" placeholder="Enter username" name="username" required>
 
     <label for="psw"><b>Password</b></label>
