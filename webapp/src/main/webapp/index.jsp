@@ -82,8 +82,8 @@ button:hover {
     <label for="username"><b>username</b></label>
     <input type="text" placeholder="Enter username" name="username" required>
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
+    <label for="psw"><b>Passwd</b></label>
+    <input type="passwd" placeholder="Enter Passwd" name="psw" required>
 
     <label for="psw-repeat"><b>Repeat Password</b></label>
     <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
