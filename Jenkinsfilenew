@@ -1,0 +1,11 @@
+node{
+    stage('github'){
+        git credentialsId: 'hello-word', url: 'https://github.com/sykobro/hello-world.git'
+    }
+    stage('mvn version'){
+        def mvn = tool name: "M2_HOME", type: "maven"
+        def mvncmd = "${mvn}/bin/mvn"
+        sh "${mvncmd} --version"
+        sh "${mvncmd} clean package"
+    }
+}
